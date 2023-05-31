@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+        <meta charset="utf-8">
+        <title>Sign Up</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Css/style.css">
+    </head>
+    <body>
+        <div class = "sign">
+            <header id="header" class="fixed-top ">
+                <div class="container d-flex align-items-center justify-content-between">
+                    <nav id="navbar" class="navbar" style="justify-content: right;">
+                        <ul style="font-family: Poppins; top: 25px;">
+                            <li><a href="index.html"><strong>Home</strong></a></li>
+                            <li><a href="viewBlog.html"><strong>Blog</strong></a></li>
+                            <li><a href="contactUs.html"><strong>Contact us</strong></a></li>
+                            <li><a href="testimonials.html"><strong>Testimonials</strong></a></li>
+                            <li><a href="FAQ.html"><strong>FAQ</strong></a></li>   
+                        </ul>
+                    <div class="dropdown mobile-nav-toggle" style="top: 40px;"><img src="Images/menu.svg" alt="Menu"/> 
+                        <ul style="font-family: Montserrat;">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="viewBlog.html">Blog</a></li>
+                            <li><a href="contactUs.html">Contact us</a></li>
+                            <li><a href="testimonials.html">Testimonial</a></li>
+                            <li><a href="FAQ.html">FAQ</a></li>   
+                        </ul>
+                      </div>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="form-box" style="height: 480px;">
+                <div class="button-box">
+                    <div class ="btn>"></div>
+                    <a href="signUp.html" class="toggled-button">Sign Up</a>
+
+                    <a href="signIn.html"class="untoggled-button">Sign In</a>
+                </div>
+              <form class="input-group">
+                <input type="text" class="input-field" placeholder="Name" required>
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="password" class="input-field" placeholder="Confirm Password" required>
+                <input type="checkbox" class="check-box"><span class="spanStyl">I agree to terms and conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+              </form>
+            </div>
+        </div>
+    </body>
+</html>
